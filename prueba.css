@@ -1,0 +1,123 @@
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+    border: 2px solid #777;
+}
+
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================= */
+
+
+#cabecera{
+    border: 0px;
+    
+}
+#menu{
+   border-left: 0px; 
+   border-top: 0px; 
+   border-right: 0px; 
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+}
+#lateral{
+    border: 0px;
+    padding-top: 10px;
+
+}
+#lateral #noticias{
+    border: 1px solid #f41b1b;
+    padding-bottom: 15px;
+}
+#lateral #publicidad{
+    border: 1px solid #f41b1b;
+    padding-top: 15px;
+}
+#contenido{
+    
+}
+#contenido #principal{
+    border: 0;
+    padding-bottom: 10px;
+}
+#contenido #secundario{
+    border: 2px;
+    border-color: #381f09;
+    padding-bottom: 120px;
+    
+}
+#pie {
+ 
+}
+
+#lateral {
+    
+}
+
+#cabecera {
+  
+}
+
+#menu {
+  
+}
+
+#contenido {
+    border: 0;
+    padding-top: 10px;
+}
+
+#contenido #principal {
+  
+}
+
+#pie {
+  
+}
+
+#contenido #principal .articulo {
+  
+}
+
+#contenido #principal .articulo img {
+  
+}
+
+#lateral #publicidad {
+ padding-right: 5px;
+ padding-bottom: 10px;
+}
